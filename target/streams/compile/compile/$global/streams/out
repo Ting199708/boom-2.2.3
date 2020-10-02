@@ -1,0 +1,62 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/bpu/bpd/br-predictor.scala:193:22: value withReset in package core is deprecated (since 3.2): Use the version in chisel3._[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val q_f3_history = withReset(reset.asBool || io.fe_clear || io.f4_redirect)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/bpu/bpd/gshare/gshare.scala:200:19: value withReset in package core is deprecated (since 3.2): Use the version in chisel3._[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val q_s3_resp = withReset(reset.asBool || io.fe_clear || io.f4_redirect)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/bpu/bpd/simple-predictors/base-only.scala:74:19: value withReset in package core is deprecated (since 3.2): Use the version in chisel3._[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val q_s3_resp = withReset(reset.asBool || io.fe_clear || io.f4_redirect)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/bpu/bpd/simple-predictors/simple-predictors.scala:72:21: method apply in object LFSR16 is deprecated (since 3.2): Use chisel3.util.random.LFSR(16) for a 16-bit LFSR[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private var lfsr= LFSR16(true.B)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/bpu/bpd/tage/tage.scala:257:18: value withReset in package core is deprecated (since 3.2): Use the version in chisel3._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val q_resp = withReset(reset.asBool || io.fe_clear || io.f4_redirect)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/ifu/fetch-control-unit.scala:129:25: value withReset in package core is deprecated (since 3.2): Use the version in chisel3._[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val q_f3_imemresp   = withReset(reset.toBool || clear_f3) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/ifu/fetch-control-unit.scala:131:25: value withReset in package core is deprecated (since 3.2): Use the version in chisel3._[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val q_f3_btb_resp   = withReset(reset.toBool || clear_f3) { Module(new ElasticReg(gen = Valid(new BoomBTBResp))) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/util/dromajo.scala:37:23: value IntParam in package core is deprecated (since 3.2): Use the version in chisel3.experimental._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    "COMMIT_WIDTH" -> IntParam(commitWidth),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/util/dromajo.scala:38:15: value IntParam in package core is deprecated (since 3.2): Use the version in chisel3.experimental._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    "XLEN" -> IntParam(xLen),[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/util/dromajo.scala:39:23: value StringParam in package core is deprecated (since 3.2): Use the version in chisel3.experimental._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    "BOOTROM_FILE" -> StringParam(bootromFile),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/util/dromajo.scala:40:23: value StringParam in package core is deprecated (since 3.2): Use the version in chisel3.experimental._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    "RESET_VECTOR" -> StringParam(resetVector),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/util/dromajo.scala:41:21: value StringParam in package core is deprecated (since 3.2): Use the version in chisel3.experimental._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    "MMIO_START" -> StringParam(mmioStart),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/util/dromajo.scala:42:19: value StringParam in package core is deprecated (since 3.2): Use the version in chisel3.experimental._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    "MMIO_END" -> StringParam(mmioEnd),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/util/dromajo.scala:43:20: value StringParam in package core is deprecated (since 3.2): Use the version in chisel3.experimental._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    "PLIC_BASE" -> StringParam(plicBase),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/util/dromajo.scala:44:20: value StringParam in package core is deprecated (since 3.2): Use the version in chisel3.experimental._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    "PLIC_SIZE" -> StringParam(plicSize),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/util/dromajo.scala:45:21: value StringParam in package core is deprecated (since 3.2): Use the version in chisel3.experimental._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    "CLINT_BASE" -> StringParam(clintBase),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/util/dromajo.scala:46:21: value StringParam in package core is deprecated (since 3.2): Use the version in chisel3.experimental._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    "CLINT_SIZE" -> StringParam(clintSize),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/util/dromajo.scala:47:19: value StringParam in package core is deprecated (since 3.2): Use the version in chisel3.experimental._[0m
+[0m[[0m[33mwarn[0m] [0m[0m    "MEM_SIZE" -> StringParam(memSize)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/util/util.scala:402:31: type Data in package core is deprecated (since 3.2): Use the version in chisel3._[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def apply[T <: chisel3.core.Data](in: Vec[Vec[T]]) = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ting199708/chipyard-1.1.0/generators/boom/src/main/scala/util/util.scala:429:35: type Data in package core is deprecated (since 3.2): Use the version in chisel3._[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass Compactor[T <: chisel3.core.Data](n: Int, k: Int, gen: T) extends Module[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 1968 feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m21 warnings found[0m
